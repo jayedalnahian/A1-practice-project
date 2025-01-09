@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+/* header style  */
+
+.download-resume {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 2px solid rgb(13, 19, 33);
+    border-radius: 15px;
+    padding: 24px;
+
+}
+
+.nahian {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+/* section-one style  */
+
+.section-one {
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    border: 2px dashed;
+}
+
+.cote {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.contact-with-me {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 21px 24px 21px 24px;
+    background: rgb(13, 19, 33);
+}
+
+/* section-two style  */
+
+.section-two-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.sec-two-first-sub-sec {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-two div .description {
+    text-align: left;
+}
+
+.sec-two-sub-div {
+    display: flex;
+    gap: 90px;
+}
+
+.section-two {
+    width: 1140px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-two .description {
+    margin-bottom: 32px;
+}
+
+.sec-two-first-sub-sec {
+    margin-bottom: 16px;
+}
+
+.section-two .download-resume {
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+.sec-two-middle-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+}
+
+/* section-three-style */
+.video {
+    width: 1076px;
+    height: 550px;
+    padding: 32px;
+    border: 0.5px solid rgba(13, 19, 33, 0.171);
+    border-radius: 15px;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin: 120px auto;
+}
+
+/* section-four style  */
+
+.section-four {
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.sec-four-sub-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.learn-more {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.sec-four-main-div {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+/* section five style  */
+
+.section-five div .section-two-title,
+.description {
+    text-align: left;
+}
+
+.sec-five-sub-div {
+    display: flex;
+    gap: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.199);
+    width: 1140px;
+    height: 200px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 1px;
+}
+
+.section-five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 120px auto;
+}
+
+.sec-five-main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sec-five-smallest-div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* section six style  */
+
+.section-six {
+    width: 1140px;
+    height: 313px;
+    margin: 120px auto;
+
+    background: url(../assets/handshake.jpg);
+
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.sec-six-first-div {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1140px;
+    height: 313px;
+    margin: 120px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-six .description,
+.section-two-title {
+    color: white;
+}
+
+.section-six .section-two-title {
+    font-weight: 600;
+}
+
+.section-six .description {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-six .download-resume {
+    background-color: white;
+    padding: 17px 20px 17px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.sec-six-input {
+    font-size: 20px;
+    background-color: white;
+    padding: 17px 20px 17px 20px;
+    border-radius: 10px;
+    width: 548px;
+}
+
+/* footer style  */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+footer p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+footer div{
+    display: flex;
+    gap: 30px;
+}
